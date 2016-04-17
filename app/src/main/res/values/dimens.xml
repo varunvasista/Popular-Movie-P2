@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="item_width">150dp</dimen>
+    <dimen name="thumb_width">180dp</dimen>
+    <dimen name="thumb_height">240dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="detail_title_height">120dp</dimen>
+    <dimen name="detail_image_width">140dp</dimen>
+    <dimen name="detail_image_height">200dp</dimen>
+    <dimen name="divider_thickness">1dp</dimen>
+    <dimen name="grid_item_spacing">4dp</dimen>
+    <dimen name="grid_item_elevation">4dp</dimen>
+    <dimen name="content_padding">24dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="item_footer_height">48dp</dimen>
+    <dimen name="section_margin">16dp</dimen>
+    <dimen name="trailer_thumb_width">170dp</dimen>
+    <dimen name="trailer_thumb_height">130dp</dimen>
+    <dimen name="favourite_btn_text_size">11sp</dimen>
+    <dimen name="favourite_btn_height">32dp</dimen>
+    <dimen name="fav_border_thickness">1dp</dimen>
+    <dimen name="empty_detail_text_size">20sp</dimen>
+</resources>

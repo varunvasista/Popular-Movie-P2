@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/grid_item_spacing"
+        android:layout_marginRight="@dimen/grid_item_spacing"
+        android:columnWidth="@dimen/item_width"
+        android:gravity="center"
+        android:verticalSpacing="@dimen/grid_item_spacing"
+        android:horizontalSpacing="@dimen/grid_item_spacing"
+        android:numColumns="auto_fit"
+        android:drawSelectorOnTop="true"
+        android:stretchMode="columnWidth" />
+    <LinearLayout android:id="@+id/progressContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:progressBarStyle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_content" />
+</FrameLayout>

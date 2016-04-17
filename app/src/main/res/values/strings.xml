@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+
+    <string name="no_content">No Content.</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="pref_sort_by">Sort by</string>
+    <string name="popularity">Popularity</string>
+    <string name="highest_rated">Highest rated</string>
+    <string name="action_popularity">By Popularity</string>
+    <string name="action_rating">By High Rating</string>
+    <string name="temp_overview">Every child come into the world full of promise, and none more so than Every child come into the world full of promise, and none more so than</string>
+    <string name="empty_detail_text">Select a movie from list to get the detail.</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="trailers_header">Trailers:</string>
+    <string name="reviews_header">Reviews:</string>
+    <string name="no_trailer_available">No Trailer Available</string>
+    <string name="no_application_found">No Application found to play this video.</string>
+    <string name="ok">Ok</string>
+    <string name="auther_prefix">"Author : "</string>
+    <string name="comment_prefix">"Comment : "</string>
+    <string name="no_review_available">No Review Available</string>
+    <string name="action_favourite">By Favourite</string>
+    <string name="set_as_favourite">Set as favourite</string>
+    <string name="added_to_fav">%s : Added to favourite</string>
+    <string name="select_a_movie">Select a movie from the list to view details.</string>
+
+</resources>

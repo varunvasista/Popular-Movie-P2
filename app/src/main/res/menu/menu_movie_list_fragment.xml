@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_popularity"
+        android:checkable="true"
+        android:checked="true"
+        android:orderInCategory="100"
+        android:title="@string/action_popularity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_high_rating"
+        android:checkable="true"
+        android:orderInCategory="200"
+        android:title="@string/action_rating"
+        app:showAsAction="never" />
+ <item
+        android:id="@+id/action_favourite"
+        android:checkable="true"
+        android:orderInCategory="300"
+        android:title="@string/action_favourite"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/detail_container"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" >
+        <TextView android:id="@+id/empty_detail"
+            android:text="@string/select_a_movie"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/empty_detail_text_size"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>
+
+
+
+
+
+
